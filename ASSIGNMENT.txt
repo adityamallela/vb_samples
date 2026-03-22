@@ -1,0 +1,17 @@
+ADF -  https://learn.microsoft.com/en-us/azure/data-factory/introduction
+
+DATABRICKS - https://learn.microsoft.com/en-us/azure/databricks/introduction/
+
+AZURE SYNAPSE ANALYTICS - https://learn.microsoft.com/en-us/azure/synapse-analytics/overview-what-is
+
+ADLS GEN 2 :https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction
+
+FABRIC :https://learn.microsoft.com/en-us/fabric/fundamentals/microsoft-fabric-overview 
+
+STREAM ANALYTICS - https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction
+
+
+
+
+
+
