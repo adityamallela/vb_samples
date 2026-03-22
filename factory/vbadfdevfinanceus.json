@@ -1,0 +1,9 @@
+{
+	"name": "vbadfdevfinanceus",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "54d4ec65-ca89-4077-a501-985a1c28e333",
+		"tenantId": "2eb2a4c5-19a7-4f9a-b14f-ac83e1672bc6"
+	}
+}

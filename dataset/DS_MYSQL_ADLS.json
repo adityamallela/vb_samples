@@ -1,0 +1,16 @@
+{
+	"name": "DS_MYSQL_ADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_MYSQL_ADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`actor`"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

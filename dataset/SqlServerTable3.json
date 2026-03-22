@@ -1,0 +1,32 @@
+{
+	"name": "SqlServerTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_MSSQL_GETMETADATA_NEW",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "EmployeeID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ProjectID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Role",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "EmployeeProjects"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

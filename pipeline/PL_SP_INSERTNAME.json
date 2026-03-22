@@ -1,0 +1,48 @@
+{
+	"name": "PL_SP_INSERTNAME",
+	"properties": {
+		"activities": [
+			{
+				"name": "SP_INSERT_INPUTDATA",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[dbo].[sp_InsertEmployee]",
+					"storedProcedureParameters": {
+						"DepartmentID": {
+							"value": "1",
+							"type": "Int32"
+						},
+						"FirstName": {
+							"value": "Aditya",
+							"type": "String"
+						},
+						"HireDate": {
+							"value": "2025-03-19",
+							"type": "DateTime"
+						},
+						"LastName": {
+							"value": "Mallela",
+							"type": "String"
+						}
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "SqlServer1",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-03-20T18:12:53Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

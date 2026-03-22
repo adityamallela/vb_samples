@@ -1,0 +1,21 @@
+{
+	"name": "LS_MSSQL_ADLSParquet4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_MSSQL_ADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "outputdata",
+				"fileSystem": "sqlserverdata"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
