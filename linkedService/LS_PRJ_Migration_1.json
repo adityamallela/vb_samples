@@ -1,0 +1,21 @@
+{
+	"name": "LS_PRJ_Migration_1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": ".\\SQLEXPRESS",
+			"database": "RetailDW_Dev",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "root",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlNjQyMWE2YS0zNDYzLTQxNGItYmJlNy0xOGQyZmE1NTRhYjIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SQLServerIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
