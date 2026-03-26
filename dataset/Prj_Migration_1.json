@@ -1,0 +1,20 @@
+{
+	"name": "Prj_Migration_1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_PRJ_Migration_1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"schemaname": {
+				"type": "string"
+			},
+			"tablename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
